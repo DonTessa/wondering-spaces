@@ -279,8 +279,7 @@ figcaption { font-size: 0.88rem; color: var(--muted); margin-top: 0.5rem; }
 }
 
 .benefits {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  column-gap: 2rem;
+  grid-template-columns: 1fr;
 }
 .benefits li { max-width: none; }
 .benefits .wide { grid-column: 1 / -1; }
